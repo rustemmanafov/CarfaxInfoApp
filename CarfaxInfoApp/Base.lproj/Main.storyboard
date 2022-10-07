@@ -1,24 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7En-YO-0Lw">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Reports-->
+        <scene sceneID="l75-Oy-sPq">
+            <objects>
+                <viewController storyboardIdentifier="ReportsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sza-3q-Qf3" customClass="ReportsViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DUG-pC-Pjt">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4pb-Se-OrI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Reports" id="9Y6-xf-QbP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1uM-tv-cUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="124"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="CFg-hi-GEV">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7mC-SP-4Fj" customClass="HomeViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zle-k4-wKb">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6ei-3l-wLW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="n3d-cN-eXN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cr-wF-bpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="-599"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0TD-h6-VaI">
+            <objects>
+                <tabBarController id="7En-YO-0Lw" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VdC-De-qwk">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="sFc-5A-HuJ" kind="relationship" relationship="viewControllers" id="GgL-DF-Qwt"/>
+                        <segue destination="56t-tu-LFq" kind="relationship" relationship="viewControllers" id="yev-eF-xJ2"/>
+                        <segue destination="Qex-e0-THE" kind="relationship" relationship="viewControllers" id="GUE-6O-Q5I"/>
+                        <segue destination="JCI-v6-TDu" kind="relationship" relationship="viewControllers" id="EVq-Q0-1ao"/>
+                        <segue destination="4dH-2n-EDo" kind="relationship" relationship="viewControllers" id="BU8-gU-qBh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="694-FP-XZF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1488" y="482"/>
+        </scene>
+        <!--Payments-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="PaymentsViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gnc-lK-oJN">
+                                <rect key="frame" x="0.0" y="91" width="390" height="670"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PaymentTableViewCell" id="5ub-Ju-Bhz" customClass="PaymentTableViewCell" customModule="CarfaxInfoApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5ub-Ju-Bhz" id="zlG-Ne-p6k">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="avQ-T9-bGF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="gQh-jS-sCa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gnc-lK-oJN" secondAttribute="trailing" id="TBi-dq-epP"/>
+                            <constraint firstItem="gnc-lK-oJN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VCk-aG-PMF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gnc-lK-oJN" secondAttribute="bottom" id="cWN-Y5-5cy"/>
+                            <constraint firstItem="gnc-lK-oJN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n1r-aI-pCh"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Payments" id="w8O-aG-giD"/>
+                    <connections>
+                        <outlet property="tableView" destination="gnc-lK-oJN" id="Con-If-5Ee"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="82" y="820"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="tq2-je-mjQ">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dHc-GN-YXQ" customClass="SettingsViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jAQ-a0-gJk">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aNO-aQ-6I2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="FCW-XF-lFK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mY-SN-b1h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="1526"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="jdq-tn-vlM">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="065-r1-t1N" customClass="SearchViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c9D-sd-s5j">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FGf-5b-kOH">
+                                <rect key="frame" x="0.0" y="91" width="390" height="670"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Hsp-Mc-3zl">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hsp-Mc-3zl" id="OEC-zc-ha9">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="065-r1-t1N" id="OAx-OP-5s9"/>
+                                    <outlet property="delegate" destination="065-r1-t1N" id="2YW-Fe-MeW"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9ve-yg-Af2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FGf-5b-kOH" firstAttribute="leading" secondItem="9ve-yg-Af2" secondAttribute="leading" id="Erd-c3-Sk0"/>
+                            <constraint firstItem="9ve-yg-Af2" firstAttribute="trailing" secondItem="FGf-5b-kOH" secondAttribute="trailing" id="Q4g-D5-FSo"/>
+                            <constraint firstItem="FGf-5b-kOH" firstAttribute="top" secondItem="9ve-yg-Af2" secondAttribute="top" id="l04-Iq-jWf"/>
+                            <constraint firstItem="9ve-yg-Af2" firstAttribute="bottom" secondItem="FGf-5b-kOH" secondAttribute="bottom" id="ruJ-tz-JWq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="21u-WQ-tl2"/>
+                    <connections>
+                        <outlet property="tableView" destination="FGf-5b-kOH" id="T0s-N9-qkn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XvP-kU-5ra" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="2238"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="jme-Qa-BhQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sFc-5A-HuJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="bQc-bO-Pe9"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sRK-oR-doM">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7mC-SP-4Fj" kind="relationship" relationship="rootViewController" id="au3-rn-wOB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RY7-fR-Nlt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="-599"/>
+        </scene>
+        <!--Reports-->
+        <scene sceneID="wug-LX-tma">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="56t-tu-LFq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Reports" image="car" catalog="system" id="2mi-ko-Prb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ATQ-PV-FZZ">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sza-3q-Qf3" kind="relationship" relationship="rootViewController" id="pEv-w1-3qk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nz7-eA-FQQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-672" y="112"/>
+        </scene>
+        <!--Payments-->
+        <scene sceneID="Zn7-dl-uFI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qex-e0-THE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Payments" image="dollarsign" catalog="system" id="y4l-es-mtp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oqi-oE-xfM">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bIy-MR-XZy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dJN-DB-9cq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-672" y="820"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="YT4-1R-w2M">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4dH-2n-EDo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="circle.hexagongrid.fill" catalog="system" id="u9r-90-8ci"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DW5-qr-mIU">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dHc-GN-YXQ" kind="relationship" relationship="rootViewController" id="Iy2-0X-3uY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLz-r5-AcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-672" y="1526"/>
+        </scene>
+        <!--Find Car-->
+        <scene sceneID="LSc-fr-Xd3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JCI-v6-TDu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Find Car" image="magnifyingglass" catalog="system" id="3df-FM-nwa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ket-Yi-qF9">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="065-r1-t1N" kind="relationship" relationship="rootViewController" id="wcW-zD-xAA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMm-tK-bz4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-672" y="2238"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="car" catalog="system" width="128" height="95"/>
+        <image name="circle.hexagongrid.fill" catalog="system" width="128" height="115"/>
+        <image name="dollarsign" catalog="system" width="89" height="128"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

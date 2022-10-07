@@ -10,23 +10,37 @@
 		01662521396BE20CE185FDF2 /* Pods_CarfaxInfoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F47FF7B9AC8B25FB1410637 /* Pods_CarfaxInfoApp.framework */; };
 		4659471728EB43AA00A51D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659471628EB43AA00A51D56 /* AppDelegate.swift */; };
 		4659471928EB43AA00A51D56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659471828EB43AA00A51D56 /* SceneDelegate.swift */; };
-		4659471B28EB43AA00A51D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659471A28EB43AA00A51D56 /* ViewController.swift */; };
 		4659471E28EB43AA00A51D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4659471C28EB43AA00A51D56 /* Main.storyboard */; };
 		4659472128EB43AA00A51D56 /* CarfaxInfoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4659471F28EB43AA00A51D56 /* CarfaxInfoApp.xcdatamodeld */; };
 		4659472328EB43AB00A51D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4659472228EB43AB00A51D56 /* Assets.xcassets */; };
 		4659472628EB43AB00A51D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4659472428EB43AB00A51D56 /* LaunchScreen.storyboard */; };
+		4659473A28F0D75500A51D56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659473928F0D75500A51D56 /* HomeViewController.swift */; };
+		4659473C28F0D7CE00A51D56 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659473B28F0D7CE00A51D56 /* ReportsViewController.swift */; };
+		4659473E28F0D7E400A51D56 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659473D28F0D7E400A51D56 /* PaymentsViewController.swift */; };
+		4659474028F0D7EE00A51D56 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659473F28F0D7EE00A51D56 /* SettingsViewController.swift */; };
+		4659474228F0DC7700A51D56 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474128F0DC7700A51D56 /* PaymentTableViewCell.swift */; };
+		4659474428F0DDA900A51D56 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474328F0DDA900A51D56 /* SearchViewController.swift */; };
+		4659474928F0E11F00A51D56 /* Safari+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474828F0E11F00A51D56 /* Safari+Ext.swift */; };
+		4659474B28F0E15700A51D56 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474A28F0E15700A51D56 /* Image+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4659471328EB43AA00A51D56 /* CarfaxInfoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarfaxInfoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4659471628EB43AA00A51D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4659471828EB43AA00A51D56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4659471A28EB43AA00A51D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4659471D28EB43AA00A51D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4659472028EB43AA00A51D56 /* CarfaxInfoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarfaxInfoApp.xcdatamodel; sourceTree = "<group>"; };
 		4659472228EB43AB00A51D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4659472528EB43AB00A51D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4659472728EB43AB00A51D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4659473928F0D75500A51D56 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4659473B28F0D7CE00A51D56 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		4659473D28F0D7E400A51D56 /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		4659473F28F0D7EE00A51D56 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4659474128F0DC7700A51D56 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		4659474328F0DDA900A51D56 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4659474828F0E11F00A51D56 /* Safari+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Safari+Ext.swift"; sourceTree = "<group>"; };
+		4659474A28F0E15700A51D56 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
 		701FC9F48928E2AD1C6F8E07 /* Pods-CarfaxInfoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxInfoApp.debug.xcconfig"; path = "Target Support Files/Pods-CarfaxInfoApp/Pods-CarfaxInfoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7F47FF7B9AC8B25FB1410637 /* Pods_CarfaxInfoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarfaxInfoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9446EF455723E2C2DA0F692F /* Pods-CarfaxInfoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxInfoApp.release.xcconfig"; path = "Target Support Files/Pods-CarfaxInfoApp/Pods-CarfaxInfoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,14 +81,45 @@
 			children = (
 				4659471628EB43AA00A51D56 /* AppDelegate.swift */,
 				4659471828EB43AA00A51D56 /* SceneDelegate.swift */,
-				4659471A28EB43AA00A51D56 /* ViewController.swift */,
 				4659471C28EB43AA00A51D56 /* Main.storyboard */,
+				4659474728F0E0EB00A51D56 /* Helper */,
+				4659474528F0E0C400A51D56 /* Cell */,
+				4659474628F0E0D300A51D56 /* Controllers */,
 				4659472228EB43AB00A51D56 /* Assets.xcassets */,
 				4659472428EB43AB00A51D56 /* LaunchScreen.storyboard */,
 				4659472728EB43AB00A51D56 /* Info.plist */,
 				4659471F28EB43AA00A51D56 /* CarfaxInfoApp.xcdatamodeld */,
 			);
 			path = CarfaxInfoApp;
+			sourceTree = "<group>";
+		};
+		4659474528F0E0C400A51D56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4659474128F0DC7700A51D56 /* PaymentTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4659474628F0E0D300A51D56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4659473928F0D75500A51D56 /* HomeViewController.swift */,
+				4659473B28F0D7CE00A51D56 /* ReportsViewController.swift */,
+				4659473D28F0D7E400A51D56 /* PaymentsViewController.swift */,
+				4659473F28F0D7EE00A51D56 /* SettingsViewController.swift */,
+				4659474328F0DDA900A51D56 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4659474728F0E0EB00A51D56 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4659474828F0E11F00A51D56 /* Safari+Ext.swift */,
+				4659474A28F0E15700A51D56 /* Image+Ext.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		7378EEA9D9C4BDD8D129DBAC /* Frameworks */ = {
@@ -91,7 +136,6 @@
 				701FC9F48928E2AD1C6F8E07 /* Pods-CarfaxInfoApp.debug.xcconfig */,
 				9446EF455723E2C2DA0F692F /* Pods-CarfaxInfoApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,9 +255,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4659472128EB43AA00A51D56 /* CarfaxInfoApp.xcdatamodeld in Sources */,
-				4659471B28EB43AA00A51D56 /* ViewController.swift in Sources */,
 				4659471728EB43AA00A51D56 /* AppDelegate.swift in Sources */,
+				4659474028F0D7EE00A51D56 /* SettingsViewController.swift in Sources */,
+				4659474428F0DDA900A51D56 /* SearchViewController.swift in Sources */,
+				4659473C28F0D7CE00A51D56 /* ReportsViewController.swift in Sources */,
+				4659473E28F0D7E400A51D56 /* PaymentsViewController.swift in Sources */,
 				4659471928EB43AA00A51D56 /* SceneDelegate.swift in Sources */,
+				4659474928F0E11F00A51D56 /* Safari+Ext.swift in Sources */,
+				4659474228F0DC7700A51D56 /* PaymentTableViewCell.swift in Sources */,
+				4659474B28F0E15700A51D56 /* Image+Ext.swift in Sources */,
+				4659473A28F0D75500A51D56 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
