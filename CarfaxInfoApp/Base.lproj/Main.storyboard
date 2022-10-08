@@ -122,7 +122,7 @@
             </objects>
             <point key="canvasLocation" x="82" y="1526"/>
         </scene>
-        <!--Search View Controller-->
+        <!--Find Car-->
         <scene sceneID="jdq-tn-vlM">
             <objects>
                 <viewController storyboardIdentifier="SearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="065-r1-t1N" customClass="SearchViewController" customModule="CarfaxInfoApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,7 +158,7 @@
                             <constraint firstItem="9ve-yg-Af2" firstAttribute="bottom" secondItem="FGf-5b-kOH" secondAttribute="bottom" id="ruJ-tz-JWq"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="21u-WQ-tl2"/>
+                    <navigationItem key="navigationItem" title="Find Car" id="21u-WQ-tl2"/>
                     <connections>
                         <outlet property="tableView" destination="FGf-5b-kOH" id="T0s-N9-qkn"/>
                     </connections>

@@ -12,19 +12,16 @@ class SearchViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var auctionSite = ["Copart", "IAAI"]
-    var copart: String = ""
-    var iaai: String = ""
-
+    var auctionSite = ["Copart","IAAI"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
-    
 }
 
 extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
-   
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         auctionSite.count
     }
@@ -36,13 +33,14 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        showInSafari(url: "https://www.copart.com")
-        showInSafari(url: "https://www.iaai.com")
-        
-        tableView.deselectRow(at: indexPath, animated: false)
-        guard let cell = tableView.cellForRow(at: indexPath) else { return }
-        let item = auctionSite[indexPath.row]
-            
+        switch indexPath.row {
+        case 0:
+            showInSafari(url: "https://www.copart.com")
+        case 1:
+            showInSafari(url: "https://www.iaai.com")
+        default:
+            break
+        }
     }
     
 }
