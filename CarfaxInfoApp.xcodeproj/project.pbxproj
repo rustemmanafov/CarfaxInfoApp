@@ -22,6 +22,7 @@
 		4659474428F0DDA900A51D56 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474328F0DDA900A51D56 /* SearchViewController.swift */; };
 		4659474928F0E11F00A51D56 /* Safari+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474828F0E11F00A51D56 /* Safari+Ext.swift */; };
 		4659474B28F0E15700A51D56 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4659474A28F0E15700A51D56 /* Image+Ext.swift */; };
+		4685F74F291C2C6100805CBF /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685F74E291C2C6100805CBF /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		4659474328F0DDA900A51D56 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4659474828F0E11F00A51D56 /* Safari+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Safari+Ext.swift"; sourceTree = "<group>"; };
 		4659474A28F0E15700A51D56 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
+		4685F74E291C2C6100805CBF /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		701FC9F48928E2AD1C6F8E07 /* Pods-CarfaxInfoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxInfoApp.debug.xcconfig"; path = "Target Support Files/Pods-CarfaxInfoApp/Pods-CarfaxInfoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7F47FF7B9AC8B25FB1410637 /* Pods_CarfaxInfoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarfaxInfoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9446EF455723E2C2DA0F692F /* Pods-CarfaxInfoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarfaxInfoApp.release.xcconfig"; path = "Target Support Files/Pods-CarfaxInfoApp/Pods-CarfaxInfoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				4659474828F0E11F00A51D56 /* Safari+Ext.swift */,
 				4659474A28F0E15700A51D56 /* Image+Ext.swift */,
+				4685F74E291C2C6100805CBF /* NetworkHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				4659471728EB43AA00A51D56 /* AppDelegate.swift in Sources */,
 				4659474028F0D7EE00A51D56 /* SettingsViewController.swift in Sources */,
 				4659474428F0DDA900A51D56 /* SearchViewController.swift in Sources */,
+				4685F74F291C2C6100805CBF /* NetworkHelper.swift in Sources */,
 				4659473C28F0D7CE00A51D56 /* ReportsViewController.swift in Sources */,
 				4659473E28F0D7E400A51D56 /* PaymentsViewController.swift in Sources */,
 				4659471928EB43AA00A51D56 /* SceneDelegate.swift in Sources */,
